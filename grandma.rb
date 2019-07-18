@@ -5,7 +5,7 @@ def speak_to_grandma(speech)
   speech == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
   else
-    speech == speech.upcase && != "I LOVE YOU GRANDMA!"
+    speech == speech.upcase 
     return "NO, NOT SINCE 1938!"
   end
   end
